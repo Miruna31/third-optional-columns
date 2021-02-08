@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.content-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 0px 90px 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 96%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.photo-container{
+    width: 30%;
+}
+
+.photo-wrapper{
+    background-image: url(../assets/bg.jpg);
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+}
+
+.photo-wrapper.one{
+    position: relative;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    left: -40px;
+    top: -40px;
+}
+
+.logo img{
+    height: auto;
+    width: 100%;
+}
+
+.photo-wrapper.one div:nth-child(2){
+    width: 50px;
+    padding-top: 80px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.first-title{
+    width: 60px;
+    font-size: 55px;
+    font-weight: 700;
+    padding-top: 20px;
+    line-height: 1.1;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.subtitle div:first-of-type{
+    color: #e7a06c;
+    width: 40px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.photo-wrapper.two{
+    height: 510px;
+    background-position: center top;
+}
+
+.second-title{
+    color: #e7a06c;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 20px 0px 5px 0px;
+}
+
+.photo-container p{
+    color: #747273;
+    padding-top: 5px;
+}
+
+.photo-wrapper.three{
+    height: 410px;
+    background-position: right top;
+}
+
+.photo-wrapper.three div{
+    color: white;
+    text-align: right;
+    padding-right: 5px;
+    font-weight: 300;
+    opacity: 0.8;
+}
+
+.photo-wrapper.three div:first-of-type{
+    font-size: 20px;
+}
+
+.photo-wrapper.three div:nth-child(2){
+    font-size: 15px;
+}
+
+.photo-wrapper.three div:nth-child(3){
+    font-size: 10px;
+}
+
+.prizes{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+}
+
+.money div{
+    color: #747273;
+}
+
+.schedule{
+    padding: 10px 0px;
+}
+
+.second-title.small{
+    font-size: 20px;
+}
+
+span{
+    color: #747273;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.logos-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-wrapper{
+    width: 100px;
+    height: 50px;
+}
+
+.logo-wrapper img{
+    height: 100%;
+    width: auto;
+}
+
