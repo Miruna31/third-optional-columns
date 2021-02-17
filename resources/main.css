@@ -23,9 +23,8 @@ body, html{
 }
 
 .photo-wrapper{
-    background-image: url(../assets/bg.jpg);
+    background-image: url(../assets/bg.jpg) no-repeat;
     height: 670px;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: left top;
 }
@@ -75,8 +74,9 @@ body, html{
 }
 
 .photo-wrapper.two{
-    height: 510px;
+    height: 520px;
     background-position: center top;
+    background-size: 800px 660px;
 }
 
 .second-title{
@@ -93,8 +93,9 @@ body, html{
 }
 
 .photo-wrapper.three{
-    height: 410px;
+    height: 420px;
     background-position: right top;
+    background-size: 800px 650px;
 }
 
 .photo-wrapper.three div{
